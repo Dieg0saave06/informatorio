@@ -4,5 +4,5 @@ from django.db import models
 
 class Publicaciones(models.Model):
     fecha = models.DateField()
-    titulo = models.CharField(max_length=255)
+    titulo = models.CharField(max_length = 255)
     post = models.TextField()
